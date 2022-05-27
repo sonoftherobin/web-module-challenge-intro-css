@@ -1,0 +1,128 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	max-width: 100%;
+	/* border:1px solid black; */
+}
+html{
+	font-size: 62.5%;
+	font-weight: 400;
+}
+body{
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-family:'Roboto Mono', monospace;
+	color: black;
+}
+h1{
+	font-size: 6rem;
+	font-family: 'Chelsea Market', cursive;
+	text-align:center;
+}
+h2, h3, p{
+
+	text-align:center;
+}
+h2{
+	font-size: 3rem;
+}
+h3{
+	font-size: 1.5rem;
+}
+p{
+	font-size: 2rem;
+}
+button{
+	color: whitesmoke; 
+	display:inline;
+	font-size:3rem;
+	transition: 2s;
+	margin: .5% 6%;
+	width:20%;
+	border-radius: 45px;
+	margin-inline-start: 0;
+}
+#plan{
+	background-color: #FF764E;
+}
+#learn{
+	background-color:#5ED3EB;
+
+}
+#involved{
+	background-color:#FFCD69;
+}
+button:hover{
+	color:black;
+}
+
+section{
+	padding: 4% 0;
+}
+nav{
+	
+	text-align: center;
+	
+}
+#imgTop{
+	display: inline-block;
+	width: 25%;
+}
+#topPic{
+	margin-left: 20%;
+	border-radius: 360px;
+	border: solid black 1px;
+	
+}
+#textTop{
+	display: inline-block;
+	width: 70%;
+}
+p{
+	background-color: #DDB9A3;
+	margin:0 10%;
+}
+.middle{
+	text-align: center;
+}
+.icons{
+	display:inline-block;
+	text-align: center;
+	width:20%;
+	padding:1% 5%;
+	margin:0 40%; 
+}
+.blurbs{
+	display:inline-block;
+	text-align: center;
+	width:20%;
+	padding:1% 5%;
+	margin:0 40%; 
+
+}
+a{
+	text-decoration:wavy;
+	color: darkgray; 
+	font-weight:bolder;
+}
+a:hover{
+	color:cadetblue;
+
+}
+#pano{
+	height:50vh;
+	display:block;
+
+}
+
+#btmPano{
+	height:93.5%;
+	width:100%;
+ 	margin-top:1%; 
+}
+footer{
+	display:block;
+	background-color: #F9E7DC;
+	padding:0;
+}
+
